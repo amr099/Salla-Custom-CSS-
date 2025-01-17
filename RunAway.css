@@ -1,0 +1,50 @@
+.special_categories > div:last-of-type > div:last-of-type,
+.special_category_piece_number,
+.category_section a p {
+    display: none !important;
+}
+
+.s-block--best-offers .s-button-element {
+    background: var(--color-primary) !important;
+}
+
+.s-product-card-eye-btn,
+.button.s-product-card-eye-btn,
+salla-add-product-button {
+    color: #fff !important;
+}
+
+.feq_section .layout {
+    background: unset;
+}
+
+.map-wrapper .s-social-link a svg {
+    fill: #fff;
+}
+
+.store-footer,
+.store-footer__inner,
+.store-footer__inner + div {
+    background: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    footer .container > div > div,
+    .s-contacts {
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .s-contacts-list {
+        align-items: center;
+    }
+    .store-footer a,
+    .s-social-list {
+        justify-content: center;
+    }
+}
+
+footer .s-social-link a svg {
+    fill: #fff !important;
+}
