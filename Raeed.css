@@ -34,6 +34,18 @@ body {
 }
 */
 
+.top-navbar .s-search-input {
+    background-color: #fff;
+}
+
+.s-block--photos-slider {
+    transition: all 0.4s;
+}
+
+.s-block--photos-slider:hover {
+    filter: brightness(0.8);
+}
+
 .main-nav-container {
     min-height: 0;
 }
