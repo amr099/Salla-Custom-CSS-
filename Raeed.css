@@ -132,7 +132,21 @@ body {
 /* Products */
 
 .s-product-card-entry {
-    border: 2px solid #c0898e;
+    background-color: #fbfafa !important;
+    border: 2px solid var(--color-primary);
+    border-radius: 0.5rem !important;
+}
+
+.s-product-card-image {
+    background-color: #fff !important;
+}
+
+.s-product-card-entry:hover img {
+    scale: 1.2;
+}
+
+.s-product-card-entry img {
+    transition: all 0.3s;
 }
 
 .slider-bannars-moving h2,
