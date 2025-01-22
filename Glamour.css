@@ -3,12 +3,12 @@
 :root {
     --mobile-header: absolute;
 
-    --banner1-height-mob: 70vh;
+    --banner1-height-mob: 50vh;
     --banner1-txt-width-desk: 700px;
     --banner1-txt-width-mob: 300px;
 
     --banner1-txt-desk: auto 5% auto auto;
-    --banner1-txt-mob: auto auto auto 5%;
+    --banner1-txt-mob: auto 0 auto auto;
 
     --banner2-height-desk: 700px;
     --banner2-height-mob: 300px;
@@ -182,7 +182,7 @@ section:nth-child(2 of.landing-page-first-bannar) .txt {
 
 @media (max-width: 768px) {
     .g_cat .grid {
-        grid-template-columns: repeat(var(--cat-mob) minmax(0, 1fr));
+        grid-template-columns: repeat(var(--cat-mob), minmax(0, 1fr));
     }
     .g_cat h3 {
         font-size: 1rem;
