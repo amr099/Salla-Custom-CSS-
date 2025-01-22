@@ -125,7 +125,7 @@ section:nth-child(2 of.landing-page-first-bannar) > div {
 
 section:nth-child(2 of.landing-page-first-bannar) .txt {
     margin: var(--banner2-txt-desk);
-    margin: var(--banner2-txt-width-desk);
+    max-width: var(--banner2-txt-width-desk);
 }
 
 @media (max-width: 768px) {
@@ -144,7 +144,7 @@ section:nth-child(2 of.landing-page-first-bannar) .txt {
 
     section:nth-child(2 of.landing-page-first-bannar) .txt {
         margin: var(--banner2-txt-mob);
-        margin: var(--banner2-txt-width-mob);
+        max-width: var(--banner2-txt-width-mob);
     }
 
     .landing-page-first-bannar h1 {
