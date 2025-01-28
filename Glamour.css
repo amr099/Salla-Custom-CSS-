@@ -64,13 +64,15 @@
     width: auto !important;
 }
 
+.main-nav-container.fixed-pinned .navbar-brand img {
+    max-height: 70px;
+}
+
 @media (min-width: 992px) {
     .navbar-brand img {
         max-height: 5rem;
     }
-    .main-nav-container.fixed-pinned .navbar-brand img {
-        max-height: 70px;
-    }
+   
 }
 
 .main-nav-container.fixed-pinned .inner,
