@@ -12,10 +12,9 @@ video.style.height = "100%";
 
 section.appendChild(video);
 
-const targetDiv = document.querySelector(".image-text");
+const targetDiv = document.querySelector(".g_cat");
 if (targetDiv) {
     targetDiv.parentNode.insertBefore(section, targetDiv);
-    ش;
 } else {
     console.error('Element with class "target div" not found.');
 }
