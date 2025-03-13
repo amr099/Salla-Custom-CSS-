@@ -78,6 +78,10 @@ body {
     opacity: 0.7;
 }
 
+#mainnav i{
+  border: unset !important
+}
+
 .sicon-shopping-bag:before {
     content: "\ef39" !important;
 }
