@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "CareemRegular";
+  src: url("https://amr099.github.io/Fonts/CAREEM-REGULAR.DB5F2BCA26992ED25A89.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "CareemRegular", sans-serif !important;
+}
+
+@media (min-width: 1024px) {
+  [data-template="home"] header.d-flex.flex-column {
+    position: absolute;
+    width: 100%;
+  }
+  [data-template="home"] .div-bg-absolute {
+    position: absolute;
+    z-index: 99;
+  }
+  [data-template="home"] .top-main-menu-wrapper {
+    position: absolute;
+    z-index: 99999999;
+  }
+  [data-template="home"] ul.main-nav > li > a,
+  .item-all-categories a {
+    color: #fff;
+  }
+  [data-template="home"] .header-theme-icon-primary {
+    color: #fff;
+  }
+  ul.main-nav {
+    backdrop-filter: blur(30px);
+  }
+
+  [data-template="home"] .header-theme-bg-primary {
+    background-color: transparent;
+  }
+
+  [section-id="9178462e-5804-4b5f-8d15-4cb701bf0a5e"] {
+    padding-top: 6.5rem;
+  }
+}
+
+.section-title {
+  text-align: center !important;
+  color: #000 !important;
+  margin-bottom: 2rem !important;
+}
+
+.btn-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  background-color: transparent;
+}
+
+.main-slider {
+  max-height: 100%;
+}
+
+[section-id="9178462e-5804-4b5f-8d15-4cb701bf0a5e"] .container-slider,
+[section-id="9178462e-5804-4b5f-8d15-4cb701bf0a5e"] .slick-track,
+[section-id="9178462e-5804-4b5f-8d15-4cb701bf0a5e"] .slider-item,
+[section-id="9521f17a-f165-45e6-9a71-73b390a34165"] .container-slider,
+[section-id="9521f17a-f165-45e6-9a71-73b390a34165"] .slick-track,
+[section-id="9521f17a-f165-45e6-9a71-73b390a34165"] .slider-item,
+[section-id="1749a0b4-2725-4593-a53c-adc54a624dc1"] .slick-track,
+[section-id="1749a0b4-2725-4593-a53c-adc54a624dc1"] .slider-item,
+[section-id="59b06328-7e11-40dc-9965-70f40762080f"] .slick-track,
+[section-id="59b06328-7e11-40dc-9965-70f40762080f"] .slider-item,
+[section-id="2c59354d-5510-48b5-a2dc-c61d02512272"] .slick-track,
+[section-id="2c59354d-5510-48b5-a2dc-c61d02512272"] .slider-item {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 2rem !important;
+}
+
+[section-id="1749a0b4-2725-4593-a53c-adc54a624dc1"] .container-slider,
+[section-id="59b06328-7e11-40dc-9965-70f40762080f"] .container-slider,
+[section-id="2c59354d-5510-48b5-a2dc-c61d02512272"] .container-slider {
+  max-width: 90% !important;
+  margin: auto !important;
+}
+
+[section-id="16824a9c-1ada-48a7-8ec1-5e2151bd4872"] .slick-slide img {
+  object-fit: contain !important;
+}
+
+.gallery.row {
+  display: grid;
+  gap: 2rem;
+}
+
+[section-id="1d357440-1289-4a25-ae20-ab4b9f558c46"] .gallery.row {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+[section-id="6cdc888d-2b4e-4dd0-a221-ee7b8240a5ed"] .gallery.row {
+  grid-template-columns: repeat(4, 1fr);
+}
+.btn-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+.btn-primary {
+  font-size: 1.5rem !important;
+}
+@media (min-width: 768px) {
+  .btn-primary {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery.row {
+    gap: 1rem;
+  }
+  [section-id="1d357440-1289-4a25-ae20-ab4b9f558c46"] .gallery.row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  [section-id="6cdc888d-2b4e-4dd0-a221-ee7b8240a5ed"] .gallery.row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery-item {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.gallery .gallery-item.bottom-row {
+  margin-top: 0;
+}
+
+.footer * {
+  color: #fff;
+  fill: #fff;
+}
+
+footer {
+  background-image: url(https://i.ibb.co/fGpdpr1x/Rectangle-32.webp) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  color: #fff !important;
+}
+.footer-theme-bg-primary {
+  background-color: transparent;
+}
+
+.store-section .social-icons span,
+.store-section a {
+  color: #fff;
+  border: #fff !important;
+}
+
+.footer .icons div {
+  padding: 10px 15px;
+  backdrop-filter: blur(70px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+}
