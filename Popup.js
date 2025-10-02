@@ -1,52 +1,68 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // === Create Overlay Background ===
   let overlay = document.createElement("div");
-  overlay.style.position = "fixed";
-  overlay.style.top = "0";
-  overlay.style.left = "0";
-  overlay.style.width = "100%";
-  overlay.style.height = "100%";
-  overlay.style.backgroundColor = "rgba(0,0,0,0.6)";
-  overlay.style.display = "flex";
-  overlay.style.alignItems = "center";
-  overlay.style.justifyContent = "center";
-  overlay.style.zIndex = "9999";
+  overlay.className = "custom-overlay";
 
-  // === Create Popup Container ===
   let popup = document.createElement("div");
-  popup.style.position = "relative";
-  popup.style.maxWidth = "90%";
-  popup.style.maxHeight = "90%";
+  popup.className = "custom-popup";
 
-  // === Add Image ===
   let img = document.createElement("img");
   img.src = "https://i.ibb.co/C5C8DFtb/Lote-Store-1-1.png";
-  img.style.width = "90%";
-   img.style.maxWidth = "600px";
-  img.style.height = "auto";
-  img.style.margin="auto";
-  img.style.borderRadius = "10px";
-  img.style.boxShadow = "0 4px 20px rgba(0,0,0,0.4)";
+  img.className = "popup-img";
 
-  // === Add Close Button ===
   let closeBtn = document.createElement("span");
   closeBtn.innerHTML = "&times;";
-  closeBtn.style.position = "absolute";
-  closeBtn.style.top = "10px";
-  closeBtn.style.right = "20px";
-  closeBtn.style.fontSize = "40px";
-  closeBtn.style.color = "#fff";
-  closeBtn.style.cursor = "pointer";
-  closeBtn.style.fontWeight = "bold";
+  closeBtn.className = "popup-close";
 
-  // === Close on Click ===
   closeBtn.addEventListener("click", function () {
     document.body.removeChild(overlay);
   });
 
-  // === Append Elements ===
   popup.appendChild(img);
   popup.appendChild(closeBtn);
   overlay.appendChild(popup);
   document.body.appendChild(overlay);
 });
+
+
+/* CSS 
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.custom-popup {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.popup-img {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+*/

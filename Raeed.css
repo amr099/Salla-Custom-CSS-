@@ -34,6 +34,12 @@ body {
 }
 */
 
+a.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .top-navbar .s-search-input {
     background-color: #fff;
 }
@@ -210,7 +216,8 @@ body:not(body.product-single)
 
 /* Features */
 
-.s-block--features__item .feature-icon {
+.s-block--features__item .feature-icon,
+.s-block--features__item {
     background-color: var(--feat-bg);
 }
 
