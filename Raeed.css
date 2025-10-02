@@ -231,6 +231,10 @@ body:not(body.product-single)
     }
 }
 
+.copyright-text p{
+    color:#fff !important
+}
+
 /* Social Icons */
 
 a[href*="instagram"] {
