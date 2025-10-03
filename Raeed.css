@@ -153,13 +153,12 @@ a.navbar-brand {
 /* Products */
 
 .s-product-card-entry {
-    background-color: #fbfafa !important;
-    border: 2px solid var(--color-primary);
+    background-color: transparent !important;
     border-radius: 0.5rem !important;
 }
 
 .s-product-card-image {
-    background-color: #fff !important;
+    background-color: transparent !important;
 }
 
 .s-product-card-entry:hover img {
