@@ -5,7 +5,6 @@
     --bg: #fff;
     --header-bg: #000;
     --header-color: #fff;
-    --cat-num: 4;
     --feat-bg: #000;
     --feat-color: #fff;
     --footer-bg: var(--color-primary);
@@ -121,7 +120,7 @@ a.navbar-brand {
 /* Categories */
 
 .s-block--banners .grid {
-    grid-template-columns: repeat(var(--cat-num), 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
 }
 
 .s-block--banners .banner-entry {
