@@ -84,8 +84,8 @@ a.navbar-brand {
     opacity: 0.7;
 }
 
-#mainnav i{
-  border: unset !important
+#mainnav i {
+    border: unset !important;
 }
 
 .sicon-shopping-bag:before {
@@ -238,8 +238,8 @@ body:not(body.product-single)
     }
 }
 
-.copyright-text p{
-    color:#fff !important
+.copyright-text p {
+    color: #fff !important;
 }
 
 /* Social Icons */
