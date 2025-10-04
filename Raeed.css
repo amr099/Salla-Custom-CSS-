@@ -3,6 +3,7 @@
 :root {
     --logo: url();
     --bg: #fff;
+    --bg-img: url();
     --header-bg: #000;
     --header-color: #fff;
     --feat-bg: #000;
@@ -12,6 +13,13 @@
 
 body {
     background-color: var(--bg) !important;
+}
+
+.app-inner {
+  background-image: var(--bg-img) !important;
+  background-size: cover !important;   /* keeps ratio, covers all */
+  background-repeat: no-repeat !important;
+  background-position: center bottom;
 }
 
 /* Navbar */
