@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+  .s-product-card-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .s-product-card-content-main {
+    width: 100% !important;
+  }
+
+  .s-product-card-content-footer {
+    width: 65% !important;
+  }
+
+  .s-product-card-content-sub {
+    width: 30% !important;
+    order: 3;
+  }
+  .s-product-card-content-sub {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .s-product-card-vertical
+    .s-product-card-wishlist-btn:where([dir="rtl"], [dir="rtl"] *) {
+    right: 0.5rem;
+    left: auto !important;
+  }
+}
