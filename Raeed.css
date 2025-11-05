@@ -50,6 +50,10 @@ a.navbar-brand {
     background-color: #fff;
 }
 
+.s-user-menu-trigger {
+    background-color: transparent;
+}
+
 .s-block--photos-slider {
     transition: all 0.4s;
 }
