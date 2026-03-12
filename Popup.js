@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  if (!document.body.classList.contains("index")) return;
+
   let overlay = document.createElement("div");
   overlay.className = "custom-overlay";
 
@@ -6,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   popup.className = "custom-popup";
 
   let img = document.createElement("img");
-  img.src = "https://i.ibb.co/C5C8DFtb/Lote-Store-1-1.png";
+  img.src = "https://i.ibb.co/fzB5g0WC/converted-maknun-1.webp";
   img.className = "popup-img";
 
   let closeBtn = document.createElement("span");
@@ -21,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
   popup.appendChild(closeBtn);
   overlay.appendChild(popup);
   document.body.appendChild(overlay);
-});
 
+});
 
 /* CSS 
 
