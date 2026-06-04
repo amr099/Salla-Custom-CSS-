@@ -216,6 +216,14 @@ body:not(body.product-single)
     background-color: var(--footer-bg) !important;
 }
 
+footer a.flex.items-center.m-0 h3{
+  font-size: 0 !important
+}
+
+footer a.flex.items-center.m-0 h3:after{
+content: url(https://i.ibb.co/Jwqv6v7M/image-106-1.png)
+}
+
 @media (min-width: 1024px) {
     footer .grid {
         grid-template-columns: repeat(4, minmax(0, 1fr));
